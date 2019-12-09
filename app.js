@@ -1,11 +1,10 @@
 // TODO
+var Item = (props)=> (<ul><li>{props.arr[0]}</li><li>{props.arr[1]}</li></ul>)
 
-// var MyTag = () => (<h1>Test</h1>);
 var GroceryList = ()=>(
-	<ul>
-		<li>Bread</li>
-		<li>Milk</li>
-	</ul>
+		<Item arr={['Bread', 'Milk']}  />
+		
+	
 );
 
 var App = () => (
